@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.Nav-Container{
+  display: flex;
+  /* border: 2px solid black; */
+  margin: 0px auto;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  
+}
+.logo{
+  display: flex;
+  /* border: 2px solid red; */
+  width: 76px;
+  height: auto;
+  position: relative;
+  right: 367px;
+  justify-content:center ;
+  align-items: center;
+  font-size: larger;
+}
+.logo h3 span {
+  color: red;
+}
+
+.Nav-Ul{
+  display: flex;
+  list-style: none;
+  /* border: 2px solid red; */
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.Nav-Li{
+  margin:5px;
+  border: 1px solid green;
+  padding: 5px 15px;
+  background-color: aliceblue;
+  color:rgba(0, 0, 0, 0.651); ;
+  border-radius: 5px;
+  font-size: medium;
+  justify-content: center;
+ 
+}
+.Nav-li:hover{
+  background-color: rgb(137, 194, 228);
+}
+.Text-Container{
+  display: flex;
+  border: 2px solid gray;
+  margin: 50px auto;
+  height: 250px;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  overflow: hidden;
+}
+#textarea{
+  display: flex;
+  padding: 50px 100px;
+  margin-top: 25px;
+}
+.btn-todo{
+   display: flex;
+    height: 22px;
+    width: 101px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  .btn-copy{
+    display: flex;
+    height: 22px;
+    width: 101px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    cursor: pointer;
+}
